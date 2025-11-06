@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage, generateId } from '../../utils/localStorage';
-import { Skill } from '../../types';
-import { Clock, CheckCircle, XCircle, AlertCircle } from 'lucide-react';
+import type { Skill } from '../../types';
+import { Clock, CheckCircle, XCircle } from 'lucide-react';
 
 export const PendingVerifications = () => {
   const { user } = useAuth();

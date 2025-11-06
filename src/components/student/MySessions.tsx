@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage } from '../../utils/localStorage';
-import { Enrollment } from '../../types';
+import type { Enrollment } from '../../types';
 import { Calendar, CheckCircle, Star, MessageSquare } from 'lucide-react';
 
 export const MySessions = () => {

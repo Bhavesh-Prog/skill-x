@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { storage } from '../../utils/localStorage';
-import { Skill, Video } from '../../types';
+import type { Skill, Video } from '../../types';
 import { Award, Video as VideoIcon, Play, Search } from 'lucide-react';
 
 export const ApprovedSkills = () => {

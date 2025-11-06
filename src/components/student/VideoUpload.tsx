@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage, generateId } from '../../utils/localStorage';
-import { Skill, Video } from '../../types';
+import type { Skill, Video } from '../../types';
 import { Upload, Play, FileVideo, AlertCircle } from 'lucide-react';
 
 export const VideoUpload = () => {

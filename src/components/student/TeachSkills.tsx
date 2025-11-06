@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage, generateId } from '../../utils/localStorage';
-import { Skill, Notification } from '../../types';
+import type { Skill } from '../../types';
 import { Plus, Clock, CheckCircle, XCircle, AlertCircle } from 'lucide-react';
 
 export const TeachSkills = () => {

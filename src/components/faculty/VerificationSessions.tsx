@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage, generateId } from '../../utils/localStorage';
-import { Verification, Skill } from '../../types';
+import type { Verification, Skill } from '../../types';
 import { Calendar, Plus, CheckCircle, Clock } from 'lucide-react';
 
 export const VerificationSessions = () => {

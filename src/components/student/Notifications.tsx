@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage } from '../../utils/localStorage';
-import { Notification } from '../../types';
+import type { Notification } from '../../types';
 import { Bell, CheckCircle, AlertCircle, Info, Trash2 } from 'lucide-react';
 
 export const Notifications = () => {
@@ -56,18 +56,6 @@ export const Notifications = () => {
         return <AlertCircle className="w-5 h-5 text-yellow-600" />;
       default:
         return <Info className="w-5 h-5 text-blue-600" />;
-    }
-  };
-
-  const getBgColor = (type: string, read: boolean) => {
-    const opacity = read ? '50' : '100';
-    switch (type) {
-      case 'success':
-        return `bg-green-${opacity}`;
-      case 'warning':
-        return `bg-yellow-${opacity}`;
-      default:
-        return `bg-blue-${opacity}`;
     }
   };
 

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { CreditCard, X } from 'lucide-react';
-import { Skill } from '../types';
+import type { Skill } from '../types';
 
 interface PaymentModalProps {
   skill: Skill;

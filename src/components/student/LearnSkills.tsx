@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage, generateId } from '../../utils/localStorage';
-import { Skill, Enrollment, Payment, Notification } from '../../types';
+import type { Skill, Enrollment, Payment } from '../../types';
 import { PaymentModal } from '../PaymentModal';
 import { Search, Filter, Star, Play } from 'lucide-react';
 

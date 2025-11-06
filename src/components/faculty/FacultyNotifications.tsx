@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { storage } from '../../utils/localStorage';
-import { Notification } from '../../types';
+import type { Notification } from '../../types';
 import { Bell, CheckCircle, AlertCircle, Info, Trash2 } from 'lucide-react';
 
 export const FacultyNotifications = () => {

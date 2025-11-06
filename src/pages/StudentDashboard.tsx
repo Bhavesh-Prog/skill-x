@@ -10,8 +10,6 @@ import {
   User,
   LogOut,
   Plus,
-  Search,
-  Upload,
 } from 'lucide-react';
 import { LearnSkills } from '../components/student/LearnSkills';
 import { TeachSkills } from '../components/student/TeachSkills';
